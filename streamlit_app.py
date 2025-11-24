@@ -45,7 +45,7 @@ if "last_prediction" not in st.session_state:
 # ======================
 # 모델 로드
 # ======================
-FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1uj2lD8goJDLo9uSg_8HcT4bxnl2trPc8")
+FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1RLqtDj8WGpf_O7smZz-DU_PtoVHAc_c0/view")
 MODEL_PATH = st.secrets.get("MODEL_PATH", "model.pkl")
 
 @st.cache_resource
@@ -77,7 +77,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
   labels[0] : {"texts" : ["중국식 냉면은 맛있어"], "images" : [https://mblogthumb-phinf.pstatic.net/MjAyNDA3MTNfMTM5/MDAxNzIwODcyMTg5Mzk2.R85dx_qTfv13nrQPR3FvgfLNWNfdSDWmmlH2PWvFhmUg.Aoqc3iu52EbZIjtfDUyw2OKOzkNcMEi2D3bdvu2KkPkg.JPEG/SE-231ebe51-1c30-11ef-8608-b335d7d8b709.jpg?type=w800]},
   labels[2] : {"texts" : ["짜장면은 맛있어"], "images" : [https://i.namu.wiki/i/j2AxLP9AtrcJebh4DVfGxowfXwI3a95dG_YZb_Ktczc6Ca7ACyd_NJL3YHQMw8SABGTQiJDwSpySOSSBLZVEZw.webp]},
   labels[3] : {"texts" : ["짬뽕은 맛있어"], "images" : [https://recipe1.ezmember.co.kr/cache/recipe/2017/06/19/2756808e5603db7a18c4f5ee9a699ee41.jpg]},
-  labels[4] : {"texts" : ["탕수육은 맛있어"] "images" : [https://i.namu.wiki/i/DQPzlCdDvbadZasufp6VhKSLDPHU4YlA1f9GbY2fP9nMvjNOSE32JZxL_ysj2duhcUtcWo-cGQvO_qS3rXctJw.webp]},
+  labels[4] : {"texts" : ["탕수육은 맛있어"], "images" : [https://i.namu.wiki/i/DQPzlCdDvbadZasufp6VhKSLDPHU4YlA1f9GbY2fP9nMvjNOSE32JZxL_ysj2duhcUtcWo-cGQvO_qS3rXctJw.webp]},
 }
 
 # ======================
