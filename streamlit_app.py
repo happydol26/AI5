@@ -74,10 +74,10 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-  labels[1] : {"texts" : ["중국식 냉면은 맛있어"], "images" : [https://www.unileverfoodsolutions.co.kr/recipe/%EC%A4%91%EA%B5%AD-%EB%83%89%EB%A9%B4-R9008730.html]},
-  labels[2] : {"texts" : ["짜장면은 맛있어"], "images" : [https://i.namu.wiki/i/j2AxLP9AtrcJebh4DVfGxowfXwI3a95dG_YZb_Ktczc6Ca7ACyd_NJL3YHQMw8SABGTQiJDwSpySOSSBLZVEZw.webp]},
-  labels[3] : {"texts" : ["짬뽕은 맛있어"], "images" : [https://recipe1.ezmember.co.kr/cache/recipe/2017/06/19/2756808e5603db7a18c4f5ee9a699ee41.jpg]},
-  labels[4] : {"texts" : ["탕수육은 맛있어"], "images" : [https://i.namu.wiki/i/DQPzlCdDvbadZasufp6VhKSLDPHU4YlA1f9GbY2fP9nMvjNOSE32JZxL_ysj2duhcUtcWo-cGQvO_qS3rXctJw.webp]},
+  labels[1] : {"texts" : ["중국식 냉면은 맛있어"], "images" : ["https://www.unileverfoodsolutions.co.kr/recipe/%EC%A4%91%EA%B5%AD-%EB%83%89%EB%A9%B4-R9008730.html"]},
+  labels[2] : {"texts" : ["짜장면은 맛있어"], "images" : ["https://i.namu.wiki/i/j2AxLP9AtrcJebh4DVfGxowfXwI3a95dG_YZb_Ktczc6Ca7ACyd_NJL3YHQMw8SABGTQiJDwSpySOSSBLZVEZw.webp"]},
+  labels[3] : {"texts" : ["짬뽕은 맛있어"], "images" : ["https://recipe1.ezmember.co.kr/cache/recipe/2017/06/19/2756808e5603db7a18c4f5ee9a699ee41.jpg"]},
+  labels[4] : {"texts" : ["탕수육은 맛있어"], "images" : ["https://i.namu.wiki/i/DQPzlCdDvbadZasufp6VhKSLDPHU4YlA1f9GbY2fP9nMvjNOSE32JZxL_ysj2duhcUtcWo-cGQvO_qS3rXctJw.webp"]},
 }
 
 # ======================
